@@ -1,6 +1,6 @@
 # CS Student Personal Website
 
-A clean Next.js personal website starter for a computer science student portfolio.
+Vibe coded a personal website with Codex in 10 minutes.
 
 ## Stack
 
