@@ -6,8 +6,8 @@ export function SkillsSection() {
     <section className="content-section" id="skills">
       <SectionHeading
         eyebrow="Skills"
-        title="A simple skill layout that recruiters can scan in seconds."
-        description="Group tools by category so the section is easier to read and less like a keyword wall."
+        title="The stack I keep coming back to."
+        description="These are the tools that show up across my internships and projects, not a random list of everything I have touched once."
       />
       <div className="skills-grid">
         {skillGroups.map((group) => (
@@ -24,4 +24,3 @@ export function SkillsSection() {
     </section>
   );
 }
-

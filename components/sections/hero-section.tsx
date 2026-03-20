@@ -6,10 +6,7 @@ export function HeroSection() {
     <section className="hero-section" id="top">
       <div className="hero-copy">
         <p className="eyebrow">{profileWithStats.tagline}</p>
-        <h1>
-          Building polished software experiences with a strong engineering
-          foundation.
-        </h1>
+        <h1>Backend-heavy web apps, cleaner UI, and a more personal build path.</h1>
         <p className="hero-description">{profileWithStats.summary}</p>
         <div className="hero-inline-meta">
           <span>{profileWithStats.education}</span>
@@ -36,7 +33,7 @@ export function HeroSection() {
           ))}
         </div>
         <div className="hero-note-card">
-          <p>Open to internships, research roles, and product-focused student teams.</p>
+          <p>Based in Kuala Lumpur, with internship work in Chengdu and an exchange semester in Montreal.</p>
           <a href={`mailto:${profileWithStats.email}`}>Let&apos;s talk</a>
         </div>
       </div>

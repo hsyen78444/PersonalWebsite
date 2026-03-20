@@ -2,20 +2,20 @@ export const profile = {
   name: "Yen Hua Shen",
   tagline: "CS student | Full-stack developer | Spring Boot and modern web apps",
   summary:
-    "CS student at Universiti Malaya with internship experience in full-stack and UI development.",
+    "Software engineering student from Kuala Lumpur building backend-heavy web apps with clean product UI.",
   about:
-    "I build full-stack apps with Spring Boot, Vue, React, and database-backed systems.",
+    "My work so far sits between backend systems and product UI: Spring Boot services, database-backed apps, Vue and React frontends, and Qt/QML interfaces.",
   education:
     "B.Comp.Sc. in Software Engineering at Universiti Malaya, CGPA 3.53. Exchange semester at McGill University.",
   interests:
-    "Interested in backend systems, product engineering, and AI-powered tools.",
+    "Interested in backend systems, product engineering, and practical AI tools.",
   email: "yhuashen@gmail.com",
   github: "https://github.com/hsyen78444",
   linkedin: "https://www.linkedin.com/in/yen-hua-shen-595472280/",
   resumeUrl: "https://drive.google.com/file/d/1qIlaMBNVJzk6Zokv7UwQczmaXB_07NpX/view?usp=drive_link",
-  currentFocus: "Full-stack systems, backend services, and polished product UI",
+  currentFocus: "Spring Boot backends, end-to-end products, and cleaner interfaces",
   focusDescription:
-    "Currently focused on production-style web apps with strong backend fundamentals.",
+    "Right now I am focused on systems that have real workflow complexity behind a simple UI.",
   contactNote:
     "Open to internships, research, and student projects."
 } as const;
@@ -84,6 +84,45 @@ export const stats = [
   { value: "2", label: "Internships completed" },
   { value: "3+", label: "Portfolio projects" },
   { value: "2", label: "Countries studied or worked in" }
+] as const;
+
+export const journey = [
+  {
+    place: "Kuala Lumpur",
+    label: "Base",
+    description:
+      "Studying software engineering at Universiti Malaya and building most of my projects here."
+  },
+  {
+    place: "Chengdu",
+    label: "Internship",
+    description:
+      "Spent 4 months working on QML UI and UX for a cross-platform messaging product."
+  },
+  {
+    place: "Montreal",
+    label: "Exchange",
+    description:
+      "McGill exchange semester focused on software engineering and concurrent computing."
+  }
+] as const;
+
+export const personalNotes = [
+  {
+    title: "What I like building",
+    description:
+      "Systems with real workflows: booking flows, management panels, internal tools, and backend services."
+  },
+  {
+    title: "How I work",
+    description:
+      "I like owning features end to end, from API design and database logic to UI polish and debugging."
+  },
+  {
+    title: "What I want next",
+    description:
+      "A team where I can keep growing as a backend-leaning product engineer and ship useful software."
+  }
 ] as const;
 
 export const profileWithStats = {

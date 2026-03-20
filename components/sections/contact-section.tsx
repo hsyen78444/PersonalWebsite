@@ -7,8 +7,8 @@ export function ContactSection() {
     <section className="content-section" id="contact">
       <SectionHeading
         eyebrow="Contact"
-        title="Make the next step obvious."
-        description="This closing section should tell people exactly how to reach you and what kinds of opportunities you want."
+        title="If you are building software with real product and backend depth, I would like to hear about it."
+        description="I am looking for teams where I can keep growing as a backend-leaning engineer who still cares about the front end."
       />
       <div className="contact-card">
         <div>

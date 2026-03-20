@@ -6,8 +6,8 @@ export function ProjectsSection() {
     <section className="content-section" id="projects">
       <SectionHeading
         eyebrow="Projects"
-        title="Feature a few strong projects instead of listing everything."
-        description="Each project card shows the problem, the stack, and the kind of work you owned."
+        title="These projects are the clearest signal of what I actually like building."
+        description="You will see a pattern: workflow-heavy systems, practical tools, and products that connect backend logic to user-facing interactions."
       />
       <div className="projects-grid">
         {projects.map((project) => (
@@ -31,4 +31,3 @@ export function ProjectsSection() {
     </section>
   );
 }
-

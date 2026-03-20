@@ -6,8 +6,8 @@ export function ExperienceSection() {
     <section className="content-section" id="experience">
       <SectionHeading
         eyebrow="Experience"
-        title="Highlight impact even if you are early in your career."
-        description="Internships, student leadership, freelance work, and academic projects all count when they show ownership and results."
+        title="Two internships, two very different environments."
+        description="One pushed me toward backend services and enterprise workflows. The other taught me to care more about interface detail and product feel."
       />
       <div className="timeline">
         {experiences.map((experience) => (
@@ -26,4 +26,3 @@ export function ExperienceSection() {
     </section>
   );
 }
-
