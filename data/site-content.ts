@@ -67,7 +67,7 @@ export const projects = [
     description:
       "AI email reply tool using Gemini, a Chrome extension, Spring Boot, and React.",
     stack: ["Google Gemini API", "Spring Boot", "React", "Chrome Extension", "Maven"],
-    codeLink: "https://github.com/hsyen78444"
+    codeLink: "https://github.com/hsyen78444/AI-email-reply-generator"
   },
   {
     title: "Pickify",
@@ -75,7 +75,7 @@ export const projects = [
     description:
       "Media recommendation app with search, ratings, comments, and team-built API integration.",
     stack: ["Node.js", "Express", "MongoDB", "JavaScript", "Postman"],
-    codeLink: "https://github.com/hsyen78444"
+    codeLink: "https://github.com/hsyen78444/Pickify"
   }
 ] as const;
 
