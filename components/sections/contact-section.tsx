@@ -1,3 +1,4 @@
+import { ResumeLink } from "@/components/ui/resume-link";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { profile } from "@/data/site-content";
 
@@ -15,12 +16,16 @@ export function ContactSection() {
           <p>{profile.contactNote}</p>
         </div>
         <div className="contact-links">
+          <ResumeLink className="contact-link-button" label="Download Resume" />
           <a href={`mailto:${profile.email}`}>{profile.email}</a>
-          <a href={profile.github}>GitHub</a>
-          <a href={profile.linkedin}>LinkedIn</a>
+          <a href={profile.github} rel="noreferrer" target="_blank">
+            GitHub
+          </a>
+          <a href={profile.linkedin} rel="noreferrer" target="_blank">
+            LinkedIn
+          </a>
         </div>
       </div>
     </section>
   );
 }
-

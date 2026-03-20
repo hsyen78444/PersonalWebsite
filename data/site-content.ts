@@ -1,75 +1,92 @@
 export const profile = {
   name: "Yen Hua Shen",
-  tagline: "CS student | Full-stack developer | Problem solver",
+  tagline: "CS student | Full-stack developer | Spring Boot and modern web apps",
   summary:
-    "I am a computer science student who enjoys building polished web apps, solving practical problems with code, and learning how software systems work end to end.",
+    "CS student at Universiti Malaya with internship experience in full-stack and UI development.",
   about:
-    "I enjoy building products that balance solid engineering with clean user experience. My recent work includes full-stack class projects, frontend-focused portfolio experiments, and backend systems built for speed and reliability.",
+    "I build full-stack apps with Spring Boot, Vue, React, and database-backed systems.",
   education:
-    "B.Sc. in Computer Science (Software Engineering), University of Malaya. Relevant coursework: Data Structures, Algorithms, Databases, Operating Systems, and Human-Computer Interaction.",
+    "B.Comp.Sc. in Software Engineering at Universiti Malaya, CGPA 3.53. Exchange semester at McGill University.",
   interests:
-    "Outside coursework, I like exploring latest and trending technologies, and building small projects to learn new frameworks and tools. I also enjoy reading about software design patterns, system architecture, and best practices in engineering.",
+    "Interested in backend systems, product engineering, and AI-powered tools.",
   email: "yhuashen@gmail.com",
   github: "https://github.com/hsyen78444",
-  linkedin: "https://www.linkedin.com/in/yourusername",
-  currentFocus: "Interactive web apps and backend systems",
+  linkedin: "https://www.linkedin.com/in/yen-hua-shen-595472280/",
+  resumeUrl: "https://drive.google.com/file/d/1qIlaMBNVJzk6Zokv7UwQczmaXB_07NpX/view?usp=drive_link",
+  currentFocus: "Full-stack systems, backend services, and polished product UI",
   focusDescription:
-    "Right now I am interested in building fast full-stack products and sharpening my system design fundamentals before my next internship cycle.",
+    "Currently focused on production-style web apps with strong backend fundamentals.",
   contactNote:
-    "I am currently open to internships, research opportunities, and collaborative student projects."
+    "Open to internships, research, and student projects."
 } as const;
 
 export const skillGroups = [
   {
     title: "Languages",
-    items: ["TypeScript", "JavaScript", "VueJS", "Python", "Java", "SQL"]
+    items: ["Java", "JavaScript", "TypeScript", "Python", "SQL", "HTML/CSS"]
   },
   {
     title: "Frameworks",
-    items: ["Next.js", "React", "Node.js", "Express", "Tailwind CSS", "Spring Boot"]
+    items: ["Spring Boot", "React", "Vue.js", "Node.js", "Express", "Qt/QML"]
   },
   {
     title: "Tools",
-    items: ["Git", "Postman", "Figma", "Vercel", "PostgreSQL", "MongoDB"]
+    items: ["Postman", "PostgreSQL", "MongoDB", "MySQL", "Gradle", "Maven"]
   }
 ] as const;
 
 export const experiences = [
   {
-    role: "Software Engineering Intern",
-    org: "Web.Plus",
-    period: "Jan 2026 - Mar 2026",
+    role: "Full Stack Developer Intern",
+    org: "WebPlus Solution Sdn Bhd",
+    period: "Jan 2026 - Ongoing",
     summary:
-      "Full-stack intern for a domain registration platform, contributing to both frontend and backend features, improving user experience, and collaborating with cross-functional teams."
+      "Built Spring Boot microservices, REST APIs, and Oracle-backed business logic for a DNS management platform, then integrated them with Angular and supported end-to-end debugging."
   },
   {
-    role: "UI Developer Intern",
-    org: "WuXiMenTu Technology",
-    period: "Jul 2024 - Sep 2024",
+    role: "QML Developer Intern",
+    org: "WUXIMENTU Network Technology Co., Ltd.",
+    period: "Jul 2024 - Oct 2024",
     summary:
-      "QML developer for a messaging app, UI improvements, and cross-team collaboration to enhance user experience and performance."
+      "Improved the UI and UX of a cross-platform messaging app during a 4-month internship, building reusable QML components and connecting frontend behavior with existing logic."
   }
 ] as const;
 
 export const projects = [
   {
-    title: "VisionSort",
-    type: "ML Experiment",
+    title: "Flight Management System",
+    type: "Full-stack App",
     description:
-      "A computer vision prototype that classifies waste items to support recycling education, packaged with a clear and simple web interface.",
-    stack: ["Python", "FastAPI", "TensorFlow", "Docker"],
-    codeLink: "https://github.com/yourusername/visionsort"
+      "Airline management system with authentication, booking flows, and admin modules.",
+    stack: ["Spring Boot", "Vue.js", "PostgreSQL", "REST API", "Gradle"],
+    codeLink: "https://github.com/hsyen78444"
+  },
+  {
+    title: "AI Email Reply Generator",
+    type: "AI Product Tool",
+    description:
+      "AI email reply tool using Gemini, a Chrome extension, Spring Boot, and React.",
+    stack: ["Google Gemini API", "Spring Boot", "React", "Chrome Extension", "Maven"],
+    codeLink: "https://github.com/hsyen78444"
+  },
+  {
+    title: "Pickify",
+    type: "Recommendation Platform",
+    description:
+      "Media recommendation app with search, ratings, comments, and team-built API integration.",
+    stack: ["Node.js", "Express", "MongoDB", "JavaScript", "Postman"],
+    codeLink: "https://github.com/hsyen78444"
   }
 ] as const;
 
 export const stats = [
-  { value: "5+", label: "Projects built" },
-  { value: "2", label: "Industries" },
-  { value: "100%", label: "Curiosity driven" }
+  { value: "3.53", label: "Current CGPA" },
+  { value: "2", label: "Internships completed" },
+  { value: "3+", label: "Portfolio projects" },
+  { value: "2", label: "Countries studied or worked in" }
 ] as const;
 
 export const profileWithStats = {
   ...profile,
   stats
 };
-

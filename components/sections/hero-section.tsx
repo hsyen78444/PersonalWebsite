@@ -1,3 +1,4 @@
+import { ResumeLink } from "@/components/ui/resume-link";
 import { profileWithStats } from "@/data/site-content";
 
 export function HeroSection() {
@@ -6,25 +7,23 @@ export function HeroSection() {
       <div className="hero-copy">
         <p className="eyebrow">{profileWithStats.tagline}</p>
         <h1>
-          Computer science student building thoughtful software with clean
-          interfaces.
+          Building polished software experiences with a strong engineering
+          foundation.
         </h1>
         <p className="hero-description">{profileWithStats.summary}</p>
+        <div className="hero-inline-meta">
+          <span>{profileWithStats.education}</span>
+        </div>
         <div className="hero-actions">
           <a className="primary-button" href="#projects">
             View Projects
           </a>
-          <a
-            className="secondary-button"
-            href={`mailto:${profileWithStats.email}`}
-          >
-            Contact Me
-          </a>
+          <ResumeLink className="secondary-button" label="Download Resume" />
         </div>
       </div>
       <div className="hero-panel">
-        <div className="hero-card">
-          <span>Currently Focused On</span>
+        <div className="hero-card hero-card-primary">
+          <span>Current Focus</span>
           <h2>{profileWithStats.currentFocus}</h2>
           <p>{profileWithStats.focusDescription}</p>
         </div>
@@ -35,6 +34,10 @@ export function HeroSection() {
               <span>{stat.label}</span>
             </article>
           ))}
+        </div>
+        <div className="hero-note-card">
+          <p>Open to internships, research roles, and product-focused student teams.</p>
+          <a href={`mailto:${profileWithStats.email}`}>Let&apos;s talk</a>
         </div>
       </div>
     </section>
